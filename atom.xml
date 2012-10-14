@@ -1,16 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[James Lal[:lightsofapollo] - Has blog]]></title>
   <link href="http://lightsofapollo.github.com/blog/atom.xml" rel="self"/>
   <link href="http://lightsofapollo.github.com/blog/"/>
-  <updated>2012-10-14T12:44:53-07:00</updated>
+  <updated>2012-10-14T13:08:46-07:00</updated>
   <id>http://lightsofapollo.github.com/blog/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[James Lal]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[why!?]]></title>
+    <link href="http://lightsofapollo.github.com/blog/blog/2012/10/14/why/"/>
+    <updated>2012-10-14T12:55:00-07:00</updated>
+    <id>http://lightsofapollo.github.com/blog/blog/2012/10/14/why</id>
+    <content type="html"><![CDATA[<h1>Why Blog?</h1>
+
+<ul>
+<li>Talk about Calendar protocols and JavaScript.</li>
+<li>Promote my projects (shamless!)</li>
+<li>Outlet for random thoughts</li>
+<li>Improve my writing skills</li>
+<li>Look back later on where I have been and
+what I was thinking about in the past.</li>
+</ul>
+
+
+<h2>Code (should be in every post!)</h2>
+
+<p>Words without code can be great.
+Words with code are much better.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='js'><span class='line'><span class="c1">// (Lame non-functioning code!)</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">blog</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Blog</span><span class="p">();</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">post</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Post</span><span class="p">(</span><span class="nx">blog</span><span class="p">,</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">title</span><span class="o">:</span> <span class="s1">&#39;hello&#39;</span>
+</span><span class='line'><span class="p">});</span>
+</span><span class='line'>
+</span><span class='line'><span class="nx">db</span><span class="p">.</span><span class="nx">persist</span><span class="p">(</span><span class="nx">post</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">alert</span><span class="p">(</span><span class="s1">&#39;SUCCESS!&#39;</span><span class="p">);</span>
+</span><span class='line'><span class="p">});</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
 </feed>
